@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ra00187108\Downloads\Atividade42\top.ncd
+OUTFILE=C:\Users\ra00187108\Downloads\Atividade42\top.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\ra00187108\Downloads\Atividade42
+LICENSE=WebPack
+USER_INFO=210645134_0_0_419

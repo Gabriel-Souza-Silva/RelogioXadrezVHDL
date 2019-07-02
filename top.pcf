@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jun 27 18:48:14 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "enable" LOCATE = SITE "P11" LEVEL 1;
+COMP "anodes<0>" LOCATE = SITE "K14" LEVEL 1;
+COMP "anodes<1>" LOCATE = SITE "M13" LEVEL 1;
+COMP "anodes<2>" LOCATE = SITE "J12" LEVEL 1;
+COMP "anodes<3>" LOCATE = SITE "F12" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "rco" LOCATE = SITE "M5" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "rco2" LOCATE = SITE "G1" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "clock" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "G3" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
